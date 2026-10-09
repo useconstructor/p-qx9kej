@@ -729,7 +729,10 @@ export default function Home() {
                               </div>
                             </td>
                             <td className="px-4 py-3 text-sm text-[var(--color-muted)]">
-                              {new Date(loan.created_at).toLocaleDateString('es-ES')}
+                              {(() => {
+                                const [y, m, d] = loan.created_at.split('-').map(Number)
+                                return new Date(y, m - 1, d).toLocaleDateString('es-ES')
+                              })()}
                             </td>
                             <td className="px-4 py-3">
                               {loan.returned ? (
