@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#F8F9FB",
+  "secondaryColor": "#EBF1FB",
+  "backgroundColor": "#F8F9FB",
+  "textColor": "#1A202C",
+  "accentColor": "#2E7AD6",
+  "fontHeading": "Inter",
+  "fontBody": "Roboto",
+  "borderRadius": "0.375rem",
+  "logoText": "Crea una app funcional llamada QA Biblioteca DB para gestionar prestamos de libros",
+  "logoImageUrl": "https://vabacntbfcwhgkjqajcw.supabase.co/storage/v1/object/public/screenshots/projects/P-QX9KEJ/logo.png",
+  "tone": "professional"
+}
